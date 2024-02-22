@@ -1,9 +1,9 @@
 .header{
-    background-image: linear-gradient(to right, rgb(0 0 0 / .8), rgb(0 0 0 / .7)), url('../public/img/header.jpg');
-    padding: 5rem 0;
+    background-image: linear-gradient(to right, rgb(0 0 0 / .8), rgb(0 0 0 / .7)),url(../public/img/header.jpg);
     background-position: center;
     background-size: cover;
-
+    background-repeat: no-repeat;
+    padding: 5rem 0;
 }
 
 .barra{
@@ -43,4 +43,8 @@
 .navegacion a:hover,
 .active{
     background-color:var(--primary) ;
+}
+.logo{
+    border-radius: 50%;
+    
 }

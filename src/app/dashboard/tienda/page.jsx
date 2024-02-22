@@ -1,4 +1,4 @@
-
+import ListadoProductos from '../../ui/dashboard/listado-productos'
 
 export const metadata = {
     title: "Guitarla-Tienda",
@@ -9,10 +9,14 @@ export const metadata = {
 
 function Tienda() {
   return (
-    <div>
-        <h1>Tienda</h1>
-        
-    </div>
+    <main className="contenedor">
+      <h1 className="heading">Nuestros Productos</h1>
+
+      <ListadoProductos
+      
+      />
+
+    </main>
   )
 }
 
